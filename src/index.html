@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bao mới</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<body class="bg-gray-100">
+    <div id="bao_moi">
+        <!-- header -->
+        <div class="header bg-white shadow py-3 px-5 flex items-center justify-between">
+            <div class="box_logo">
+                <img src="imgs/bm-logo.png" class="h-10" alt="Logo" />
+            </div>
+            <div class="box_search relative">
+                <input type="text" placeholder="Nhập nội dung tìm kiếm" class="pl-3 pr-10 py-2 border rounded-full text-sm w-80 focus:outline-none focus:ring-2 focus:ring-blue-600" />
+                <div class="hover_icon_search absolute inset-y-0 right-0 mr-2 flex items-center">
+                    <i class="fa fa-search text-gray-500 cursor-pointer"></i>
+                </div>
+            </div>
+            <div class="box_icon-header text-gray-600 text-lg">
+                <i class="fa fa-user mx-2 cursor-pointer"></i>
+                <i class="fa fa-th-large cursor-pointer"></i>
+            </div>
+        </div>
+        <!-- end header -->
+        <!-- Menu -->
+        <div class="bg-menu bg-teal-500">
+            <div class="menu flex items-center justify-between text-white py-2 px-5">
+                <div class="list_menu flex space-x-4">
+                    <a href="#" class="hover:underline">Nóng</a>
+                    <a href="#" class="hover:underline">Mới</a>
+                    <a href="#" class="hover:underline">Video</a>
+                    <a href="#" class="hover:underline">Chủ đề</a>
+                </div>
+                <div class="menu_center hidden md:flex space-x-4">
+                    <span># Năng lượng tích cực</span>
+                    <span># Khám phá Việt Nam</span>
+                    <span># Khám phá Thế Giới</span>
+                </div>
+                <div class="icon_bars md:hidden">
+                    <i class="fa fa-bars cursor-pointer"></i>
+                </div>
+            </div>
+        </div>
+        <!-- End Menu -->
+        <!-- main -->
+        <div class="main mt-5 mx-5 flex">
+            <div class="main_left w-3/4 pr-3">
+                <!-- Main left content goes here -->
+                <!-- ... other main left content ... -->
+            </div>
+            <div class="main_right w-1/4 pl-3">
+                <!-- Main right content goes here -->
+            </div>
+        </div>
+        <!--end main -->
+    </div>
+</body>
+</html>
